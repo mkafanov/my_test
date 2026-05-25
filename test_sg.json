@@ -238,8 +238,79 @@
                     "fontSize": 12
                 }]
             }
-        }
+        },
+        "lineChart": {
+      "*": {
+         "lineStyles": [
+          {
+        "strokeWidth": 2,
+        "lineChartType": "smooth"
+      }
+        ],
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 14,
+            "fontColor": { "solid": { "color": "#21282B" } },
+            "bold": false,
+            "italic": false
+          }
+        ],
+        "subtitle": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "fontColor": { "solid": { "color": "#919395" } },
+            "bold": false,
+            "italic": false
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "labelColor": { "solid": { "color": "#919395" } },
+             "showAxisTitle": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": false,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "labelColor": { "solid": { "color": "#919395" } },
+            "showAxisTitle": false
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "labelColorOption": "Series"
+          }
+        ],
+        "colorPalette": [
+          {
+            "colors": [
+              { "solid": { "color": "#FDC300" } },
+              { "solid": { "color": "#CCC6B8" } },
+              { "solid": { "color": "#8A7F9A" } }
+            ]
+          }
+        ]
+      }
+    }
   },
+
   "foregroundNeutralSecondary": "#919395",
   "backgroundLight": "#FFFFFF",
   "foregroundNeutralTertiary": "#FFFFFF",
