@@ -100,7 +100,190 @@
           }
         ]
       }
+    },  
+    "actionButton": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "icon": [
+          {
+            "$id": "default",
+            "lineColor": { "solid": { "color": "#21282B" } },
+            "lineWeight": 2
+          },
+          {
+            "$id": "hover",
+            "lineColor": { "solid": { "color": "#21282B" } },
+            "lineWeight": 2
+          },
+          {
+            "$id": "selected",
+            "lineColor": { "solid": { "color": "#21282B" } },
+            "lineWeight": 2
+          }
+        ],
+        "textState": [
+          {
+            "$id": "default",
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "fontColor": { "solid": { "color": "#919395" } }
+          },
+          {
+            "$id": "hover",
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "fontColor": { "solid": { "color": "#21282B" } }
+          },
+          {
+            "$id": "selected",
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "fontColor": { "solid": { "color": "#21282B" } }
+          }
+        ],
+        "fill": [
+          {
+            "$id": "default",
+            "show": false
+          },
+          {
+            "$id": "hover",
+            "show": true,
+            "fillColor": { "solid": { "color": "#919395" } },
+            "transparency": 70
+          },
+          {
+            "$id": "selected",
+            "show": true,
+            "fillColor": { "solid": { "color": "#919395" } },
+            "transparency": 70
+          }
+        ],
+        "shape": [
+          {
+            "$id": "default",
+            "type": "rectangle"
+          },
+          {
+            "$id": "hover",
+            "type": "snipRoundRectangle",
+            "roundTopRight": 25
+          },
+          {
+            "$id": "selected",
+            "type": "snipRoundRectangle",
+            "roundTopRight": 25
+          }
+        ]
+      }
     },
+     "bookmarkNavigator": {
+      "*": {
+        "title": [
+          {
+            "show": false
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ],
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "outline": [
+            { "show": false }
+        ],
+         "fill": [
+          {
+            "$id": "default",
+            "show": false
+          },
+          {
+            "$id": "hover",
+            "show": true,
+            "fillColor": { "solid": { "color": "#919395" } },
+            "transparency": 70
+          },
+          {
+            "$id": "selected",
+            "show": true,
+            "fillColor": { "solid": { "color": "#919395" } },
+            "transparency": 70
+          }
+        ],
+        "shape": [
+          {
+            "$id": "default",
+            "tileShape": "tabRoundCorner",
+            "roundTopRight": 25
+          },
+          {
+            "$id": "hover",
+            "tileShape": "tabRoundCorner",
+            "roundTopRight": 25
+          },
+          {
+            "$id": "selected",
+            "tileShape": "tabRoundCorner",
+            "roundTopRight": 25
+          }
+        ],
+        "text": [
+          {
+            "$id": "default",
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "fontColor": { "solid": { "color": "#919395" } }, 
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          {
+            "$id": "hover",
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "fontColor": { "solid": { "color": "#21282B" } } ,
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          {
+            "$id": "selected",
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "fontColor": { "solid": { "color": "#21282B" } } ,
+            "bold": false,
+            "italic": false,
+            "underline": false
+          }
+        ]
+      }
+    }
+  ,
     "slicer": {
             "*": {
               "background": [{
