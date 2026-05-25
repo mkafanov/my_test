@@ -549,6 +549,104 @@
           }
         ]
       }
+    }, 
+    "pieChart": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 14,
+            "fontColor": { "solid": { "color": "#21282B" } },
+            "bold": false,
+            "italic": false
+          }
+        ],
+        "subtitle": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "fontColor": { "solid": { "color": "#CCC6B8" } },
+            "bold": false,
+            "italic": false
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Top",
+            "showTitle": false,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "labelColor": { "solid": { "color": "#21282B" } }
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "labelPosition": "Outside",
+            "labelStyle": "Data value, percent of total",
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "fontColor": { "solid": { "color": "#21282B" } }
+          }
+        ]
+      }
+    }, 
+    "donutChart": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 14,
+            "fontColor": { "solid": { "color": "#21282B" } },
+            "bold": false,
+            "italic": false
+          }
+        ],
+        "subtitle": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "fontColor": { "solid": { "color": "#CCC6B8" } },
+            "bold": false,
+            "italic": false
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "Top",
+            "showTitle": false,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "labelColor": { "solid": { "color": "#21282B" } }
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "labelPosition": "Outside",
+            "labelStyle": "Data value, percent of total",
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "fontColor": { "solid": { "color": "#21282B" } }
+          }
+        ]
+      }
     }
   },
   "foregroundNeutralSecondary": "#919395",
