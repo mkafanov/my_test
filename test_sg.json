@@ -101,7 +101,7 @@
            {
             "image": {
               "name": "Холст",
-              "url": "https://github.com/mkafanov/my_test/blob/master/%D0%A5%D0%BE%D0%BB%D1%81%D1%82.svg",
+              "url": "https://raw.githubusercontent.com/mkafanov/my_test/refs/heads/master/canvas.svg",
               "scaling": "Fit"
             },
             "transparency": 0
