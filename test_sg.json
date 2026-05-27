@@ -109,11 +109,61 @@
         ]
       }
     },  
+       "shape": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+         "padding": [
+          {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        ],
+        "fill": [
+          {
+            "show": false,
+            "transparency": 0,
+            "fillColor": { "solid": { "color": "#21282B" } }
+          }
+        ],
+        "outline": [
+          {
+            "show": false,
+            "weight": 1,
+            "transparency": 0,
+            "lineColor": { "solid": { "color": "#5A5E60" } }
+          }
+        ]
+      }
+    },
     "actionButton": {
       "*": {
         "background": [
           {
             "show": false
+          }
+        ],
+        "padding": [
+          {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
           }
         ],
         "visualHeader": [
@@ -209,6 +259,14 @@
             "show": false
           }
         ],
+        "padding": [
+          {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        ],
         "visualHeader": [
           {
             "show": false
@@ -297,7 +355,16 @@
               "background": [{
                     "show": false
                 }]
-              , "visualHeader": [{
+              ,
+              "padding": [
+          {
+            "top": 5,
+            "bottom": 12,
+            "left": 18,
+            "right": 18
+          }
+        ],
+               "visualHeader": [{
                 "show": false
                   }]
               ,     "title": [{
@@ -327,11 +394,70 @@
                 }]
             }
         },
-        "multiRowCard": {
+        "card": {
             "*": {
               "background": [{
                     "show": false
                 }],
+              "padding": [
+          {
+            "top": 12,
+            "bottom": 5,
+            "left": 17,
+            "right": 18
+          }
+        ],
+                "visualHeader": [{
+                "show": false
+                  }],
+               "categoryLabels": [{"show": false}],
+                "title": [{
+                    "show": true,
+                    "fontFamily": "Segoe UI",
+                    "fontSize": 14,
+                    "fontColor": { "solid": { "color": "#21282B" } },
+                    "bold": false,
+                    "italic": false
+                }],
+                "subtitle": [{
+                    "show": true,
+                    "fontFamily": "Segoe UI",
+                    "fontSize": 10,
+                    "fontColor": { "solid": { "color": "#919395" } },
+                    "bold": false,
+                    "italic": false
+                }],
+                "labels": [{
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 32,
+                        "color": { "solid": { "color": "#21282B" } }
+                    }],
+                "fontFamily": "Segoe UI",
+                "fontSize": 32,
+                "color": { "solid": { "color": "#21282B" } },
+                "card": [{
+                    "barShow": false
+                }],
+                 "cardTitle": [{
+                  "color": { "solid": { "color": "#21282B" } },
+                  "fontFamily": "Segoe UI",
+                    "fontSize": 32
+                 }]
+            }
+        },
+         "multiRowCard": {
+            "*": {
+              "background": [{
+                    "show": false
+                }],
+              "padding": [
+          {
+            "top": 12,
+            "bottom": 5,
+            "left": 17,
+            "right": 18
+          }
+        ],
                 "visualHeader": [{
                 "show": false
                   }],
@@ -380,6 +506,14 @@
         "background": [
           {
             "show": false
+          }
+        ],
+        "padding": [
+          {
+            "top": 11,
+            "bottom": 5,
+            "left": 16,
+            "right": 5
           }
         ],
         "grid": [
@@ -456,6 +590,14 @@
             "show": false
           }
         ],
+        "padding": [
+          {
+            "top": 11,
+            "bottom": 10,
+            "left": 18,
+            "right": 18
+          }
+        ],
         "title": [
           {
             "show": true,
@@ -515,6 +657,14 @@
             "bold": false,
             "italic": false,
             "underline": false
+          }
+        ],
+        "padding": [
+          {
+            "top": 5,
+            "bottom": 12,
+            "left": 18,
+            "right": 18
           }
         ],
         "subTitle": [
@@ -604,6 +754,14 @@
             "underline": false
           }
         ],
+        "padding": [
+          {
+            "top": 5,
+            "bottom": 12,
+            "left": 18,
+            "right": 18
+          }
+        ],
         "subTitle": [
           {
             "show": true,
@@ -685,6 +843,14 @@
             "name": "None"
           }
         ],
+        "padding": [
+          {
+            "top": 11,
+            "bottom": 5,
+            "left": 16,
+            "right": 5
+          }
+        ],
         "grid": [
           {
             "outlineColor": { "solid": { "color": "#C8C8C8" } },
@@ -748,6 +914,14 @@
             "show": false
           }
         ],
+        "padding": [
+          {
+            "top": 5,
+            "bottom": 12,
+            "left": 18,
+            "right": 18
+          }
+        ],
         "title": [
           {
             "show": true,
@@ -797,6 +971,14 @@
             "show": false
           }
         ],
+        "padding": [
+          {
+            "top": 5,
+            "bottom": 12,
+            "left": 18,
+            "right": 18
+          }
+        ],
         "title": [
           {
             "show": true,
@@ -844,6 +1026,14 @@
         "background": [
           {
             "show": false
+          }
+        ],
+        "padding": [
+          {
+            "top": 5,
+            "bottom": 12,
+            "left": 18,
+            "right": 18
           }
         ],
         "title": [
@@ -905,6 +1095,14 @@
             "show": false
           }
         ],
+        "padding": [
+          {
+            "top": 5,
+            "bottom": 12,
+            "left": 18,
+            "right": 18
+          }
+        ],
         "title": [
           {
             "show": true,
@@ -964,6 +1162,14 @@
             "show": false
           }
         ],
+        "padding": [
+          {
+            "top": 5,
+            "bottom": 12,
+            "left": 18,
+            "right": 18
+          }
+        ],
         "title": [
           {
             "show": true,
@@ -1021,6 +1227,14 @@
         "background": [
           {
             "show": false
+          }
+        ],
+        "padding": [
+          {
+            "top": 5,
+            "bottom": 12,
+            "left": 18,
+            "right": 18
           }
         ],
         "title": [
@@ -1087,6 +1301,13 @@
           {
             "show": false
           }
+        ],"padding": [
+          {
+            "top": 11,
+            "bottom": 10,
+            "left": 18,
+            "right": 18
+          }
         ],
         "title": [
           {
@@ -1151,6 +1372,13 @@
         "background": [
           {
             "show": false
+          }
+        ],"padding": [
+          {
+            "top": 11,
+            "bottom": 10,
+            "left": 18,
+            "right": 18
           }
         ],
         "title": [
@@ -1218,6 +1446,14 @@
             "show": false
           }
         ],
+        "padding": [
+          {
+            "top": 11,
+            "bottom": 10,
+            "left": 18,
+            "right": 18
+          }
+        ],
         "title": [
           {
             "show": true,
@@ -1283,6 +1519,14 @@
             "show": false
           }
         ],
+        "padding": [
+          {
+            "top": 5,
+            "bottom": 12,
+            "left": 18,
+            "right": 18
+          }
+        ],
         "title": [
           {
             "show": true,
@@ -1346,6 +1590,14 @@
         "background": [
           {
             "show": false
+          }
+        ],
+        "padding": [
+          {
+            "top": 5,
+            "bottom": 12,
+            "left": 18,
+            "right": 18
           }
         ],
         "title": [
